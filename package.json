@@ -1,0 +1,44 @@
+{
+  "name": "zuhaib-portfolio",
+  "version": "1.0.0",
+  "description": "Modern AI & Software Engineering Portfolio - Zuhaib Ilyas",
+  "main": "portfolio.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000 --open=portfolio.html",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod",
+    "build": "echo 'No build step needed for static HTML'",
+    "validate": "npx html-validate portfolio.html"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "software-engineering",
+    "react-native",
+    "machine-learning",
+    "cloud-computing",
+    "full-stack"
+  ],
+  "author": {
+    "name": "Zuhaib Ilyas",
+    "email": "zilyas53@gmail.com",
+    "url": "https://github.com/Zuhaib2004"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zuhaib2004/portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/Zuhaib2004/portfolio/issues"
+  },
+  "homepage": "https://github.com/Zuhaib2004/portfolio#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
